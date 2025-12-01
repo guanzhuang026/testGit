@@ -91,7 +91,7 @@ module.exports = {
     })
   ],
   
-  // 解析配置：让Webpack能识别.vue和.js文件（不用写后缀）
+  // 解析配置：让Webpack能识别.vue和.js文件（不用写后缀）test
   resolve: {
     extensions: ['.vue', '.js'], // 导入时可以省略这些后缀（比如import App from './App'）
     alias: {
