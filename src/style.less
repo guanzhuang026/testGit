@@ -1,0 +1,10 @@
+// src/style.less
+@red: #f78; // Less 变量
+.box {
+  color: @red;
+  font-size: 20px;
+  .active { // Less 嵌套
+    font-weight: bold;
+    border: 1px solid @red;
+  }
+}
